@@ -1,0 +1,280 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"> 
+    <link href="custom.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light py-1" style="padding-left:9.8%; padding-right:9.8%; box-shadow: 0 3px 1rem rgba(0,0,0,.1); background-color: #0A243E; height:100px;">
+        <a class="navbar-brand" href="#">
+            <img class="d-inline-block align-top" src="assets/logo.svg" width="200px" height="80px" alt="Logo">
+        </a>
+        <button class="navbar-toggler primary" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav" style="padding-left:14%;">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link navLink" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navLink" href="#packages">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navLink" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="collapse navbar-collapse justify-content-end" style="">
+            <a href="book.html" class="btn btn-primary btn-lg" id="bookNavBtn">Book</a>
+        </div>
+      </nav>
+
+    <!-- Home Page -->
+    <section id="home" class="backgroundImage" style="background-image: url('assets/home_bg.jpg');">
+        <div class="darkMask">
+            <div class="container-fluid my-5" style="padding-top: 4%; padding-left:10%">
+                <div class="row justify-content-start">
+                    <div class="col-md-5 text-center text-md-start">
+                        <h1>
+                            <div class="h1 title">REACH</div>
+                            <div class="h1 title" id="newHeading">NEW</div>
+                            <div class="h1 title">HEIGHTS</div>
+                        </h1>
+                        <p class="subHeading">1 ON 1 BASKETBALL TRAINING</p>
+                        <a href="consultation.html" class="btn btn-primary btn-lg">Book a consultation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Page -->
+    <section id="about" class="backgroundImage" style="background-image: url('assets/about_bg.jpg');">
+        <div class="lightMask">
+            <div class="container-fluid my-5" style="padding-left:10%;">
+                <div class="row justify-content-start">
+                    <div class="col-md-7 text-center text-md-start" style="padding-right: 10%;">
+                        <h1 style="color: #0A243E; font-size: 3.0rem;">About Us</h1>
+                        <p class="subHeading" style="color: #515057; font-size: 1.5rem;">Elevate your skills to the next level with Soar Academy. We'll provide you with world-class coaching, facilities and trainers.  With thousands of pro-level athletes having trained with us, the results are undisputable.</p>
+                        <p class="subHeading" style="color: #515057; font-size: 1.5rem;">It's time for you to <large style="color:#F96565; font-weight:400; font-style: italic;">SOAR</large></p>
+                    </div>
+                    <div class="col-md-5 d-flex justify-content-center">
+                        <div class="card profileCard" style="width:350px; max-height: 400px;">
+                            <img class="card-img-top myPic" src="assets/profile.jpeg" alt="Card image">
+                            <div class="card-body">
+                              <h4 class="card-title" style="color: #0A243E;">Eshaan Kunchur</h4>
+                              <p class="card-text">Founder of Soar Academy</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" style="padding-left:10%; padding-right:10%; padding-top:1%; height: 100%; background-color: white;">
+                <div style="padding-bottom:1%;">
+                    <h2 style="color:#0A243E">Our Coaches</h2>
+                </div>
+                <div> 
+                    <div class="row justify-content-start">
+                        <div class="col-md-3 text-center">
+                            <img src="assets/bhCoach.jpg" alt="Avatar" style="width:130px; border-radius: 50%;">
+                            <p class="card-text">Pascal Durant</p>
+                            <p class="card-text" style="line-height:0.1pt; color: #8B76FF">Ball Handling Coach</p>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <img src="assets/defCoach.jpg" alt="Avatar" style="width:130px; border-radius: 50%;">
+                            <p class="card-text">Candace Taurasi</p>
+                            <p class="card-text" style="line-height:0.1pt; color: #8B76FF">Defensive Coach</p>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <img src="assets/rebCoach.jpg" alt="Avatar" style="width:130px; border-radius: 50%;">
+                            <p class="card-text">Luka Antetokounmpo</p>
+                            <p class="card-text" style="line-height:0.1pt; color: #8B76FF">Shooting Coach</p>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <img src="assets/finishingCoach.jpg" alt="Avatar" style="width:130px; border-radius: 50%;">
+                            <p class="card-text">Kawhi Lillard</p>
+                            <p class="card-text" style="line-height:0.1pt; color: #8B76FF">Finishing Coach</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Page -->
+    <section id="packages" class="backgroundImage" style="background-image: url('assets/packages_bg.jpg');">
+        <div class="lightMask">
+            <div class="container-fluid my-5" style="padding-left:10%;">
+                <div class="row justify-content-start">
+                    <div class="col-md-7 text-center text-md-start" style="padding-right: 10%;">
+                        <h1 style="color: #0A243E; font-size: 3.0rem;">Our Packages</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" style="padding-left:10%; padding-top:1%; height: 100%;">
+                <div> 
+                    <div class="row justify-content-start">
+                            <div class="col-md-2 text-center" style="display: flex; flex-direction: column;">
+                                <div>
+                                    <h5 style="color:#0A243E; line-height: 0.2; padding-bottom:10%;">Guard Skills</h5>
+                                </div>
+                                <div style="display: flex; justify-content: center; align-items: center;">
+                                    <div class="card" style="width: 9rem; height:16rem; background-image: url(assets/guard.jpg); background-size: cover;">
+                                        <div style="text-align: right;">
+                                            <img src="assets/rebCoach.jpg" alt="Avatar" style="width:40px; border-radius: 50%;">
+                                            <img src="assets/bhCoach.jpg" alt="Avatar" style="width:40px; border-radius: 50%;">
+                                        </div>
+                                        <div class="card-body" style="margin-top:80%;">
+                                          <a href="book.html" class="btn bookBtn" style="background-color: #F96565; font-size: 15px;">BOOK</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 text-center" style="display: flex; flex-direction: column;">
+                                <div>
+                                    <h5 style="color:#0A243E; line-height: 0.1; padding-bottom:10%;">Defense</h5>
+                                </div>
+                                <div style="display: flex; justify-content: center; align-items: center;">
+                                    <div class="card" style="width: 15rem; height:22rem; background-image: url(assets/def.jpg); background-size: cover;">
+                                        <div style="text-align: right;">
+                                            <img src="assets/defCoach.jpg" alt="Avatar" style="width:40px; border-radius: 50%;">
+                                        </div>
+                                        <div class="card-body" style="margin-top:90%;">
+                                          <a href="book.html" class="btn bookBtn" style="background-color: #F96565; font-size: 15px;">BOOK</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 text-center" style="display: flex; flex-direction: column;">
+                                <div>
+                                    <h5 style="color:#0A243E; line-height: 0.1; padding-bottom:10%;">Basketball 101</h5>
+                                </div>
+                                <div style="display: flex; justify-content: center; align-items: center;">
+                                    <div class="card" style="width: 15rem; height:28rem; background-image: url(assets/iq.jpg); background-size: cover;">
+                                        <div style="text-align: right;">
+                                            <img src="assets/rebCoach.jpg" alt="Avatar" style="width:40px; border-radius: 50%;">
+                                            <img src="assets/bhCoach.jpg" alt="Avatar" style="width:40px; border-radius: 50%;">
+                                            <img src="assets/finishingCoach.jpg" alt="Avatar" style="width:40px; border-radius: 50%;">
+                                            <img src="assets/defCoach.jpg" alt="Avatar" style="width:40px; border-radius: 50%;">
+                                        </div>
+                                        <div class="card-body" style="margin-top:130%;">
+                                          <a href="book.html" class="btn bookBtn" style="background-color: #F96565; font-size: 15px;">BOOK</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 text-center" style="display: flex; flex-direction: column;">
+                                <div>
+                                    <h5 style="color:#0A243E; line-height: 0.1; padding-bottom:10%;">Shooting</h5>
+                                </div>
+                                <div style="display: flex; justify-content: center; align-items: center;">
+                                    <div class="card" style="width: 15rem; height:22rem; background-image: url(assets/shooting.jpg); background-size: cover;">
+                                        <div style="text-align: right;">
+                                            <img src="assets/rebCoach.jpg" alt="Avatar" style="width:40px; border-radius: 50%;">
+                                        </div>
+                                        <div class="card-body" style="margin-top:90%;">
+                                          <a href="book.html" class="btn bookBtn" style="background-color: #F96565; font-size: 15px;">BOOK</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 text-center" style="display: flex; flex-direction: column;">
+                                <div>
+                                    <h5 style="color:#0A243E; line-height: 0.1; padding-bottom:10%;">Post Skills</h5>
+                                </div>
+                                <div style="display: flex; justify-content: center; align-items: center;">
+                                    <div class="card" style="width: 9rem; height:16rem; background-image: url(assets/post.jpg); background-size: cover;">
+                                        <div style="text-align: right;">
+                                            <img src="assets/defCoach.jpg" alt="Avatar" style="width:40px; border-radius: 50%;">
+                                            <img src="assets/finishingCoach.jpg" alt="Avatar" style="width:40px; border-radius: 50%;">
+                                        </div>
+                                        <div class="card-body" style="margin-top:80%;">
+                                          <a href="book.html" class="btn bookBtn" style="background-color: #F96565; font-size: 15px;">BOOK</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Page -->
+    <section id="contact" class="backgroundImage row" style="background-image: url('assets/contact_bg.jpg');">
+        <div class="lightMask col-md-6 text-center">
+            <div class="container-fluid my-5" style="padding-left:10%;">
+                <div class="row justify-content-start">
+                    <div class="col-md-12 text-center text-md-start">
+                        <h1 style="color: #0A243E; font-size: 3.0rem;">Lets Get In Touch</h1>
+                    </div>
+                </div>
+                <div class="row justify-content-start mb-5  mt-5">
+                    <div class="col-md-12 text-center text-md-start row">
+                        <div class="col-md-3 text-center text-md-start">
+                            <h5 class="card-title" style="color: #0A243E; font-size: 1.5rem;">Address</h5>
+                        </div>
+                        <div class="col-md-9 text-center text-md-start row">
+                            <div class="col-md-12 text-center text-md-start row">
+                                <h5 class="text-muted" style="font-weight: 200;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;88 Basketball Street, Ottawa, ON</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-start mb-5">
+                    <div class="col-md-12 text-center text-md-start row">
+                        <div class="col-md-3 text-center text-md-start">
+                            <h5 class="card-title" style="color: #0A243E; font-size: 1.5rem;">Opening Hours</h5>
+                        </div>
+                        <div class="col-md-9 text-center text-md-start row">
+                            <div class="col-md-6 text-center text-md-start row">
+                                <h5 class="text-muted" style="font-weight: 200;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Monday</h5>
+                                <h5 class="text-muted" style="font-weight: 200;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tuesday</h5>
+                                <h5 class="text-muted" style="font-weight: 200;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wednesday</h5>
+                                <h5 class="text-muted" style="font-weight: 200;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thursday</h5>
+                                <h5 class="text-muted" style="font-weight: 200;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Friday</h5>
+                                <h5 class="text-muted" style="font-weight: 200;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Weekends</h5>
+                            </div>
+                            <div class="col-md-6 text-center text-md-start row">
+                                <h5 class="text-muted" style="font-weight: 200;">9:00 AM - 6:00 PM</h5>
+                                <h5 class="text-muted" style="font-weight: 200;">9:00 AM - 6:00 PM</h5>
+                                <h5 class="text-muted" style="font-weight: 200;">9:00 AM - 6:00 PM</h5>
+                                <h5 class="text-muted" style="font-weight: 200;">9:00 AM - 6:00 PM</h5>
+                                <h5 class="text-muted" style="font-weight: 200;">9:00 AM - 6:00 PM</h5>
+                                <h5 class="text-muted" style="font-weight: 200;">9:00 AM - 4:00 PM</h5>
+                                <h5 class="text-muted" style="font-weight: 200;">9:00 AM - 3:00 PM</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-start">
+                    <div class="col-md-12 text-center text-md-start row">
+                        <div class="col-md-3 text-center text-md-start">
+                            <h5 class="card-title" style="color: #0A243E; font-size: 1.5rem;">Phone Number</h5>
+                        </div>
+                        <div class="col-md-9 text-center text-md-start row">
+                            <div class="col-md-12 text-center text-md-start row">
+                                <h5 class="text-muted" style="font-weight: 200;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;613-123-4567</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 text-center">
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
